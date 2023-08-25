@@ -1,8 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500;600;700&family=Roboto:ital,wght@0,300;0,400;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.gradient,
+.active {
+  background: linear-gradient(92.23deg,
+      #00BCD4 21.43%,
+      #3bace2 50.63%,
+      #009688 100%,
+      #424242 117.04%);
+}
+
+.active {
+  color: #fff;
+  padding: 1rem;
+  border-radius: 100%;
+}
+
+/* .-z-1 {
+  z-index: -1;
+} */
 
 @layer base {
   html {

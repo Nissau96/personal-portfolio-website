@@ -4,10 +4,19 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
-    fontFamily: {
-      heading: ["Roboto Mono"],
+    extend: {
+      colors: {
+        primary: '#17171F',
+        accent: '#009688',
+      },
     },
+    fontFamily: {
+      heading: ['Roboto Mono', 'monospace'],
+      poppins: ['Poppins', 'sans-serif'],
+    },
+
   },
-  plugins: [],
+  plugins: [
+
+  ],
 }

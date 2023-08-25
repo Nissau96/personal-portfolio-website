@@ -4,13 +4,19 @@ import React from 'react';
 import Nav from './components/Nav';
 import LandingPage from './components/LandingPage';
 import SocialLinks from './components/SocialLinks';
+import Header from './components/Header';
+import About from './components/About';
+import HomePage from './components/HomePage';
 
 
 function App() {
   return (
-    <div className='bg-gradient-to-b from-black to-gray-800 text-gray-500'>
-      <LandingPage/>
-      <SocialLinks/>
+    <div className='bg-primary text-gray-400'>
+      <Header />
+      {/* <HomePage /> */}
+      <LandingPage />
+      <SocialLinks />
+      <About />
       <Nav />
     </div>
   );
